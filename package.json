@@ -1,0 +1,36 @@
+{
+  "name": "nodemodules2schema",
+  "version": "1.0.0",
+  "description": "node_modules to json schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index"
+  },
+  "homepage": "https://github.com/ibeizhu/nodemodules2schema",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ibeizhu/nodemodules2schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibeizhu/nodemodules2schema/issues"
+  },
+  "author": "ibeizhu",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "set-value": "^3.0.2"
+  },
+  "keywords": [
+    "node_modules",
+    "packages",
+    "schema",
+    "json",
+    "packages2schema",
+    "packages2json",
+    "nodemodules2schema",
+    "nodemodules2json"
+  ]
+}
