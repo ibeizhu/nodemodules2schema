@@ -16,12 +16,15 @@ $ npm install --save nodemodules2schema
 const nodemodules2schema = require('nodemodules2schema);
 const projectDir = "/my/project1";
 const options = { 
-  depth: 5,
+  // depth: 5, // traverse node_modules max depth
   // dependenciesKey: "children", // Customize schema key
 };
 const schema = nodemodules2schema(projectDir, options);
+```
 
-// schema
+schema 
+```json
+
 {
   "dependencies": [
     {
@@ -56,5 +59,6 @@ const schema = nodemodules2schema(projectDir, options);
 
 * `projectDir` **{string}**: the project directory to traverse 
 * `options` **{object}**: options for nodemodules2schema
-  - `depth` **{number}**: traverse node_modules max depth, default value `5`
+  - `depth` **{number}**: traverse node_modules max depth, default value `8`
+    - **Attention:** node_modules is a black hole, sometimes may be positive infinity and lead to memory overflow
   - `dependenciesKey` **{string}**: schema key, default value `'dependencies'`

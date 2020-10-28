@@ -5,7 +5,7 @@ const nodeModules2Schema = require("../index");
 const projectDir = "./";
 
 const schema = nodeModules2Schema(projectDir, {
-  depth: 4,
+  // depth: 5,
   // dependenciesKey: "children",
 });
 

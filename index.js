@@ -143,7 +143,7 @@ function nodeModules2Schema(projectDir, options = {}) {
     throw new Error("projectDir must be provided");
   }
   console.time("NodeModulesToSchemaTime");
-  const depth = options.depth || 5;
+  const depth = options.depth || 8;
   const dependenciesKey = options.dependenciesKey || "dependencies";
   const absoluteDir = path.resolve(projectDir);
   const packageList = findAllPackages(absoluteDir, depth);
