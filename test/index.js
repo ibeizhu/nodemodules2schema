@@ -6,7 +6,7 @@ const projectDir = "./";
 
 const schema = nodeModules2Schema(projectDir, {
   depth: 4,
-  dependenciesKey: "children",
+  // dependenciesKey: "children",
 });
 
 fse.outputFileSync("./test/schema.json", JSON.stringify(schema));

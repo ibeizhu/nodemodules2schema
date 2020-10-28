@@ -1,1 +1,107 @@
-{"children":[{"children":[],"name":"at-least-node","version":"1.0.0"},{"children":[{"children":[],"name":"at-least-node","version":"1.0.0"},{"children":[],"name":"graceful-fs","version":"4.2.4"},{"children":[{"children":[],"name":"graceful-fs","version":"4.2.4"},{"children":[],"name":"universalify","version":"1.0.0"}],"name":"jsonfile","version":"6.0.1"},{"children":[],"name":"universalify","version":"1.0.0"}],"name":"fs-extra","version":"9.0.1"},{"children":[],"name":"graceful-fs","version":"4.2.4"},{"children":[{"children":[],"name":"isobject","version":"3.0.1"}],"name":"is-plain-object","version":"2.0.4"},{"children":[],"name":"isobject","version":"3.0.1"},{"children":[{"children":[],"name":"graceful-fs","version":"4.2.4"},{"children":[],"name":"universalify","version":"1.0.0"}],"name":"jsonfile","version":"6.0.1"},{"children":[{"children":[{"children":[],"name":"isobject","version":"3.0.1"}],"name":"is-plain-object","version":"2.0.4"}],"name":"set-value","version":"3.0.2"},{"children":[],"name":"universalify","version":"1.0.0"}],"name":"nodemodules2schema","version":"1.0.0"}
+{
+  "dependencies": [
+    {
+      "dependencies": [],
+      "name": "at-least-node",
+      "version": "1.0.0"
+    },
+    {
+      "dependencies": [
+        {
+          "dependencies": [],
+          "name": "at-least-node",
+          "version": "1.0.0"
+        },
+        {
+          "dependencies": [],
+          "name": "graceful-fs",
+          "version": "4.2.4"
+        },
+        {
+          "dependencies": [
+            {
+              "dependencies": [],
+              "name": "graceful-fs",
+              "version": "4.2.4"
+            },
+            {
+              "dependencies": [],
+              "name": "universalify",
+              "version": "1.0.0"
+            }
+          ],
+          "name": "jsonfile",
+          "version": "6.0.1"
+        },
+        {
+          "dependencies": [],
+          "name": "universalify",
+          "version": "1.0.0"
+        }
+      ],
+      "name": "fs-extra",
+      "version": "9.0.1"
+    },
+    {
+      "dependencies": [],
+      "name": "graceful-fs",
+      "version": "4.2.4"
+    },
+    {
+      "dependencies": [
+        {
+          "dependencies": [],
+          "name": "isobject",
+          "version": "3.0.1"
+        }
+      ],
+      "name": "is-plain-object",
+      "version": "2.0.4"
+    },
+    {
+      "dependencies": [],
+      "name": "isobject",
+      "version": "3.0.1"
+    },
+    {
+      "dependencies": [
+        {
+          "dependencies": [],
+          "name": "graceful-fs",
+          "version": "4.2.4"
+        },
+        {
+          "dependencies": [],
+          "name": "universalify",
+          "version": "1.0.0"
+        }
+      ],
+      "name": "jsonfile",
+      "version": "6.0.1"
+    },
+    {
+      "dependencies": [
+        {
+          "dependencies": [
+            {
+              "dependencies": [],
+              "name": "isobject",
+              "version": "3.0.1"
+            }
+          ],
+          "name": "is-plain-object",
+          "version": "2.0.4"
+        }
+      ],
+      "name": "set-value",
+      "version": "3.0.2"
+    },
+    {
+      "dependencies": [],
+      "name": "universalify",
+      "version": "1.0.0"
+    }
+  ],
+  "name": "nodemodules2schema",
+  "version": "1.0.0"
+}

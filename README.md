@@ -15,18 +15,21 @@ $ npm install --save nodemodules2schema
 ```js
 const nodemodules2schema = require('nodemodules2schema);
 const projectDir = "/my/project1";
-const options = { depth: 5 };
+const options = { 
+  depth: 5,
+  // dependenciesKey: "children", // Customize schema key
+};
 const schema = nodemodules2schema(projectDir, options);
 
 // schema
 {
-  "children": [
+  "dependencies": [
     {
-      "children": [
+      "dependencies": [
         {
-          "children": [
+          "dependencies": [
             {
-              "children": [],
+              "dependencies": [],
               "name": "isobject",
               "version": "3.0.1"
             }
@@ -39,7 +42,7 @@ const schema = nodemodules2schema(projectDir, options);
       "version": "3.0.2"
     },
     {
-      "children": [],
+      "dependencies": [],
       "name": "universalify",
       "version": "1.0.0"
     }
