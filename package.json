@@ -1,6 +1,6 @@
 {
   "name": "nodemodules2schema",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "node_modules to json schema",
   "main": "index.js",
   "scripts": {

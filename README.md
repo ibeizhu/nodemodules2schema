@@ -13,10 +13,10 @@ $ npm install --save nodemodules2schema
 ## Usage
 
 ```js
-const nodemodules2schema = require('nodemodules2schema);
+const nodemodules2schema = require('nodemodules2schema');
 const projectDir = "/my/project1";
 const options = { 
-  // depth: 5, // traverse node_modules max depth
+  depth: 5, // traverse node_modules max depth
   // dependenciesKey: "children", // Customize schema key
 };
 const schema = nodemodules2schema(projectDir, options);
